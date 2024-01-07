@@ -1,7 +1,6 @@
 {
   "extends": "next/core-web-vitals",
   "rules": {
-    "no-unused-vars": "off",
-    "jsx-a11y/accessible-emoji": "off"
+    "no-unscaped-entities": "off"
   }
 }
