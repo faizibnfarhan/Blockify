@@ -1,12 +1,12 @@
-import { Outfit } from 'next/font/google'
-import './globals.css'
+import { Outfit } from 'next/font/google';
+import './globals.css';
 
-const font = Outfit({ subsets: ['latin'] })
+const font = Outfit({ subsets: ['latin'] });
 
 export const metadata = {
   title: 'Blockify • Start Learning Blockchain',
   description: 'A blockchain learning dynamic landing page create by Faiz using NextJS and ShadCN UI Library with Tailwind CSS.',
-}
+};
 
 export default function RootLayout({ children }) {
   return (
@@ -14,4 +14,4 @@ export default function RootLayout({ children }) {
       <body className={font.className}>{children}</body>
     </html>
   )
-}
+};
